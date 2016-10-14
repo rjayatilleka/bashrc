@@ -5,3 +5,4 @@ _sourcedir () {
 }
 
 _sourcedir "$HOME/Dropbox/env/bashrc/all"
+# source "$HOME/Dropbox/env/bashrc/bookmarks.sh"
