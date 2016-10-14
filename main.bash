@@ -4,4 +4,5 @@ _sourcedir () {
   done
 }
 
-_sourcedir "$HOME/Dropbox/env/bashrc/all"
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+_sourcedir "$DIR/all"
