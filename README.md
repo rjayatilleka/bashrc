@@ -4,4 +4,4 @@ My bashrc.
 
 ### Usage
 
-Source `main.sh` in your bashrc.
+Source `main.bash` in your bashrc.
