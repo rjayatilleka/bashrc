@@ -1,8 +1,6 @@
 declare -A -g bookmarks
 
-bookmarks[notes]="$HOME/notes"
-bookmarks[nvim]="$HOME/Dropbox/env/config/nvim"
-bookmarks[bashrc]="$HOME/Dropbox/env/bashrc"
+# Example: bookmarks[notes]="$HOME/notes"
 
 bm() {
   cd "${bookmarks[$1]}"
